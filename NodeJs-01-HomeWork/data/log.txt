@@ -1,0 +1,5 @@
+Book with id: 9a3d5e02-f7a2-44c5-8902-c65213e6ff36 was created.
+Book with id: ef5f94ec-02c4-4c44-9cc3-50a5ef295be0 was created.
+Book with id: 340f552b-a749-4425-b4fd-f25ec0485ec5 was created.
+Book with id: ef5f94ec-02c4-4c44-9cc3-50a5ef295be0 was deleted.
+Book with id: e3fe2337-27b5-4845-8c60-7dcd8daf666b was updated.
