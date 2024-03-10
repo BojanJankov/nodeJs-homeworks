@@ -39,7 +39,7 @@ const listingBooks = async () => {
 
   books.forEach((book) => {
     console.log(
-      `${book.title} by ${book.author} and Quantity of ${book.quantity}`
+      `${book.title} by ${book.author} and quantity of ${book.quantity}`
     );
   });
 };

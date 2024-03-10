@@ -1,0 +1,38 @@
+[
+  {
+    "id": "33b40055-8aa2-4676-ad47-c07d4b1f81c5",
+    "firstName": "Borche",
+    "lastName": "Borisovski",
+    "email": "borisovski.borche@gmail.com",
+    "isCurrentlyTeaching": true,
+    "timeEmployed": "3 years",
+    "coursesFinished": 5
+  },
+  {
+    "id": "f16021bb-90e4-4dab-ac81-cbeddc3ea18c",
+    "firstName": "Ivan",
+    "lastName": "Apostoloski",
+    "email": "apostoloski.ivan@gmail.com",
+    "isCurrentlyTeaching": true,
+    "timeEmployed": "1 year",
+    "coursesFinished": 3
+  },
+  {
+    "id": "801a6aae-fcdd-43a8-abb6-95df0d07b015",
+    "firstName": "Bojan",
+    "lastName": "Jankov",
+    "email": "jankov.bojan4@gmail.com",
+    "isCurrentlyTeaching": true,
+    "timeEmployed": "9 months",
+    "coursesFinished": 2
+  },
+  {
+    "id": "d6c1c881-6423-432a-8a33-eced0fef0d6d",
+    "firstName": "Ivo",
+    "lastName": "Sokoloski",
+    "email": "sokoloski.ivo@gmail.com",
+    "isCurrentlyTeaching": true,
+    "timeEmployed": "3 months",
+    "coursesFinished": 1
+  }
+]

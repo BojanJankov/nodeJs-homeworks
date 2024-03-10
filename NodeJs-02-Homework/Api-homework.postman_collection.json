@@ -1,0 +1,121 @@
+{
+	"info": {
+		"_postman_id": "6bdde7bb-6c2a-4b8b-a0d4-50e2949c3456",
+		"name": "Api-homework",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33498396"
+	},
+	"item": [
+		{
+			"name": "GetAllData test request",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/trainers/",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"trainers",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Create Trainer",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"Bojan\",\r\n    \"lastName\": \"Jankov\",\r\n    \"email\": \"jankov.bojan4@gmail.com\",\r\n    \"isCurrentlyTeaching\": true,\r\n    \"timeEmployed\": \"6 months\",\r\n    \"coursesFinished\": 1\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/trainers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"trainers"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get trainer by Id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/trainers/?33b40055-8aa2-4676-ad47-c07d4b1f81c5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"trainers",
+						""
+					],
+					"query": [
+						{
+							"key": "33b40055-8aa2-4676-ad47-c07d4b1f81c5",
+							"value": null
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Update trainer",
+			"request": {
+				"method": "PATCH",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"timeEmployed\": \"9 months\",\r\n    \"coursesFinished\": 2\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:3000/trainers/801a6aae-fcdd-43a8-abb6-95df0d07b015",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"trainers",
+						"801a6aae-fcdd-43a8-abb6-95df0d07b015"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete trainer",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
