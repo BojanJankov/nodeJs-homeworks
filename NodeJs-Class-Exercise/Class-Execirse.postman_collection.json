@@ -1,0 +1,34 @@
+{
+	"info": {
+		"_postman_id": "3d04b2bd-ea41-4048-bf4e-d00347722606",
+		"name": "Class-Execirse",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33498396"
+	},
+	"item": [
+		{
+			"name": "get students",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get by filter",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		},
+		{
+			"name": "get by id",
+			"request": {
+				"method": "GET",
+				"header": []
+			},
+			"response": []
+		}
+	]
+}
