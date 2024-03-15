@@ -1,0 +1,20 @@
+[
+  {
+    "id": "8a41be63-42c7-4c63-a683-a8a83c59077e",
+    "isFinished": false,
+    "text": "Watch movie",
+    "author": "Nikola Bozaroski"
+  },
+  {
+    "id": "b8c9d4bd-c44a-4f1f-9eb4-1b6f0c230eff",
+    "isFinished": false,
+    "text": "Learn programming",
+    "author": "Bojan Jankov"
+  },
+  {
+    "id": "8e8a607b-c373-4892-a5bc-9aeb5961d012",
+    "isFinished": false,
+    "text": "Drink coffe",
+    "author": "Ivo Sokoloski"
+  }
+]
